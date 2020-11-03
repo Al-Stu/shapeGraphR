@@ -2,11 +2,16 @@ Package: shapeGraphR
 Title: Shape Graphs for Better Visualisation of Sample Size
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "Alice",
-           family = "Stuart",
-           role = c("aut", "cre"),
-           email = "alice.stuart.98@gmail.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    c(person(given = "Alice",
+             family = "Stuart",
+             role = c("aut", "cre"),
+             email = "alice.stuart.98@gmail.com",
+             comment = c(ORCID = "0000-0001-5208-8030")),
+      person(given = "William",
+             family = "Sutherland",
+             role = c("aut"),
+             email = "w.sutherland@zoo.cam.ac.uk",
+             comment = c(ORCID = "0000-0002-6498-0437")))
 Description: Make graphs that show varying sample size on figures or numbers 
   on maps then rather than different size dots that you can never 
   distinguish you also increase number of edges so can easily read off 
@@ -17,3 +22,5 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+URL: https://github.com/Al-Stu/shapeGraphR
+BugReports: https://github.com/Al-Stu/shapeGraphR/issues
